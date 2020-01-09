@@ -8,7 +8,7 @@ CryptographyHelper was included in the library DataJugger.Core.UltimateHelper, w
 .Net Framework 4.61
 
 # DataJuggler...Cryptography
-This class uses System.Security.AesManaged for encrypt / decryption and Konscious.Security.Cryptography.Argon2 by Keef Aragon for password hashing.  
+This class uses System.Security.AesManaged for encryption / decryption and Konscious.Security.Cryptography.Argon2 by Keef Aragon for password hashing.  
 
 This class was included DataJuggler.Core.UltimateHelper, but Nuget adds more dependencies than I 
 care for with Argon2, so I moved this class to its own library.
